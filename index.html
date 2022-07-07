@@ -25,59 +25,83 @@
 
 <body>
    <main>
-      <section>
-         <h1>My balance</h1>
-         <p>$921.48</p>
+      <section class="balance_section">
+         <div class="balance_box">
+            <h1>My balance</h1>
+            <p>$921.48</p> 
+         </div>
+         <img class="logo_img" src="./images/logo.svg" alt="">
       </section>
       <article class="expenses_component">
          <section class="spending_section">
             <h2> Spending - Last 7 days</h2>
             <div class="bar_chart">
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar mon">
 
                   </div>
                   <p>mon</p>
                </div>
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar tue">
 
                   </div>
                   <p>tue</p>
                </div>
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar wed">
 
                   </div>
                   <p>wed</p>
                </div>
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar thu">
 
                   </div>
                   <p>thu</p>
                </div>
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar fri">
 
                   </div>
                   <p>fri</p>
                </div>
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar sat">
 
                   </div>
                   <p>sat</p>
                </div>
                <div class="bar_column">
+                  <div class="balance hide">
+                     <p></p>
+                  </div>
                   <div class="bar sun">
 
                   </div>
                   <p>sun</p>
                </div>
-            </div>
+            </div>            
          </section>
-         <div class="total_section">
+         <div class="totals_section">
             <section class="current_total">
                <h3>Total this month</h3>
                <p>$478.33</p>
@@ -90,10 +114,11 @@
       </article>
    </main>
 
-   <div class="attribution">
+   <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
-   </div>
+   </footer>
+   <script src="./app.js"></script>
 </body>
 
 </html>
