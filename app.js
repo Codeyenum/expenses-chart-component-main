@@ -18,20 +18,10 @@ for (let bar of bars) {
                balanceBox.firstElementChild.innerText = dataObject.amount;               
             }
          }         
-      }
+      } 
       getBalanceData()
    })
 }
-
-// for (let bar of bars) {
-//    bar.addEventListener("click", () => {      
-//       let barHeight = bar.clientHeight;
-//       let balanceBox = bar.previousElementSibling;
-
-//       balanceBox.classList.remove("hide");
-//       balanceBox.style.bottom = `${barHeight + 50}px`;
-//    })
-// }
 
 for (let bar of bars) {
    bar.addEventListener("mouseleave", () => {
@@ -39,13 +29,3 @@ for (let bar of bars) {
    })
 }
 
-
-// if (window.innerWidth < 960) {
-//    for (let bar of bars) {
-//       bar.addEventListener("click", () => {
-//          bar.previousElementSibling.classList.toggle("hide");
-//          let barHeight = bar.clientHeight;
-//          bar.previousElementSibling.style.bottom = `${barHeight + 50}px`;
-//       })
-//    }
-// }
