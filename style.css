@@ -145,7 +145,8 @@ main {
    height: 7.5rem;
    width: 1.75rem;
    background-color: var(--softRed);
-   border-radius: 3px;
+   border-radius: 3px;  
+   transition: all .75s ease-in-out; 
 }
 
 .bar:hover {
