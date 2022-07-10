@@ -28,14 +28,14 @@ for (let bar of bars) {
          let barHeight = bar.clientHeight;
          let balanceBox = bar.previousElementSibling;
    
-         balanceBox.classList.toggle("hide");
+         balanceBox.classList.remove("hide");
          balanceBox.style.bottom = `${barHeight + 50}px`;
       })
    }
 
 for (let bar of bars) {
    bar.addEventListener("mouseleave", () => {
-      bar.previousElementSibling.classList.remove("hide");
+      bar.previousElementSibling.classList.add("hide");
    })
 }
 
