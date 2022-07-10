@@ -153,6 +153,11 @@ main {
    opacity: .6;
 }
 
+.bar:active {
+   cursor: pointer;
+   opacity: .6;
+}
+
 .bar_column div+p {
    color: var(--mediumBrown);
    font-size: .625rem;
