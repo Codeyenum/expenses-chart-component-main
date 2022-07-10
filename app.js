@@ -35,7 +35,7 @@ for (let bar of bars) {
 
 for (let bar of bars) {
    bar.addEventListener("mouseleave", () => {
-      bar.previousElementSibling.classList.toggle("hide");
+      bar.previousElementSibling.classList.remove("hide");
    })
 }
 
