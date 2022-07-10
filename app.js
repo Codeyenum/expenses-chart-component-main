@@ -28,7 +28,7 @@ for (let bar of bars) {
          let barHeight = bar.clientHeight;
          let balanceBox = bar.previousElementSibling;
    
-         balanceBox.classList.remove("hide");
+         balanceBox.classList.toggle("hide");
          balanceBox.style.bottom = `${barHeight + 50}px`;
       })
    }
