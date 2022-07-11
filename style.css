@@ -241,3 +241,23 @@ main {
 .hide {
    display: none;
 }
+
+
+@media screen and (min-width: 1030px) {
+   main {
+      max-width: 40%;      
+   }
+
+   .bar {      
+      width: 2.15rem;
+   }
+   
+   .balance {
+      height: 2rem;
+      width: 3.25rem;
+   }
+
+   .balance p {      
+      font-size: .85rem;
+   }
+}

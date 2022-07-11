@@ -38,4 +38,3 @@ for (let bar of bars) {
       bar.previousElementSibling.classList.add("hide");
    })
 }
-
